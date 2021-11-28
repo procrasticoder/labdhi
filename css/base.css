@@ -6,10 +6,11 @@ a:hover{
     color: inherit;
 }
 .navbar{
+    display: block;
     position: sticky;
     top: 0;
     left: 0;
-    z-index: 2;
+    z-index: 10;
     box-shadow: 0px 0px 2px 2px black;
 }
 .nav-link a{

@@ -217,19 +217,23 @@
     {
       if(screen.width<480){
         document.getElementsByClassName('navbar-main')[0].style.display='block';
+        document.getElementsByClassName('navigation-bar')[0].style.display='none';
 
       }
       else{
         if(window.scrollY>=70)
         {
-        document.getElementsByClassName('navbar-main')[0].style.display='block';
+        console.log('yes');
+        document.getElementsByTagName('header')[0].getElementsByTagName('nav')[0].style.display='block';
+        // document.getElementsByClassName('navbar-main')[0].style.display='block';
         document.getElementsByClassName('navigation-bar')[0].style.display='none';
         // document.getElementsByClassName('show')[0].style.display='none';
 
         }
 
         else{
-        document.getElementsByClassName('navbar-main')[0].style.display='none';
+            console.log("No");
+        document.getElementsByClassName('navbar-main')[0].style.display='block';
         document.getElementsByClassName('navigation-bar')[0].style.display='grid';
         // document.getElementsByClassName('landing-dropdown')[0].style.display='block';
 
