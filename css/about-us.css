@@ -1,0 +1,6 @@
+.navbar-main{
+    display: block;
+    width: 100%;
+    z-index: 2;
+    box-shadow: 0px 0px 2px 2px black;
+}

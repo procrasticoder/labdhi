@@ -17,19 +17,19 @@ document.getElementsByTagName("header")[0].innerHTML=`
       <li class="nav-item dropdown mx-3">
         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" style="background-color: green; border-radius: 3px; color: #fff;">Products</a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Aromatic Solvent</a></li>
+          <li><a class="dropdown-item" href="products-1.html#aromatic-solvent">Aromatic Solvent</a></li>
           <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">C10 Aromatic Solvent</a></li>
+          <li><a class="dropdown-item" href="products-2.html#c10-aromatic-solvent">C10 Aromatic Solvent</a></li>
           <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">C10 Solvent</a></li>
+          <li><a class="dropdown-item" href="products-2.html#c10-solvent">C10 Solvent</a></li>
           <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Liquid Paraffin</a></li>
+          <li><a class="dropdown-item" href="products-2.html#liquid-paraffin">Liquid Paraffin</a></li>
           <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Light Diesel Oil</a></li>
+          <li><a class="dropdown-item" href="products-2.html#light-diesel-oil">Light Diesel Oil</a></li>
           <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Heavy Viscous Furnace Oil</a></li>
+          <li><a class="dropdown-item" href="products-1.html#heavy-viscous-furnace-oil">Heavy Viscous Furnace Oil</a></li>
           <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">More Products...</a></li>
+          <li><a class="dropdown-item" href="products-3.html">More Products...</a></li>
         </ul>
       </li>
       <li class="nav-item mx-3">
@@ -57,12 +57,19 @@ document.getElementsByTagName('footer')[0].innerHTML=`
     <h3>
         Our Products
     </h3>
-    <a href="products-4.html#96">Aromatic Solvent</a>
-    <a href="products-4.html#107">C10 Aromatic Solvent</a>
-    <a href="products-4.html#83">C10 Solvent</a>
-    <a href="products-5.html#79">Liquid Paraffin</a>
-    <a href="products-5.html#81">Light Diesel Oil</a>
-    <a href="products-5.html#90">Heavy Viscous Furnace Oil</a>
+    <a  href="products-1.html#aromatic-solvent">Aromatic Solvent</a>
+          
+          <a  href="products-2.html#c10-aromatic-solvent">C10 Aromatic Solvent</a>
+          
+          <a href="products-2.html#c10-solvent">C10 Solvent</a>
+         
+          <a href="products-2.html#liquid-paraffin">Liquid Paraffin</a>
+          
+          <a href="products-2.html#light-diesel-oil">Light Diesel Oil</a>
+          
+          <a href="products-1.html#heavy-viscous-furnace-oil">Heavy Viscous Furnace Oil</a>
+          
+    
     <div class="footerline"></div>
 </div>
 
