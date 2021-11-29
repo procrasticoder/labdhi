@@ -41,7 +41,7 @@ header{
     display: flex;
     flex-direction: column;
     /* background-color: #2e2e2e; */
-    background: url("/images/footer-background.jpg");
+    background: url("images/footer-background.jpg");
     background-size: 100% 100%;
     /* filter: drop-shadow(20px); */
     color: #fff;
