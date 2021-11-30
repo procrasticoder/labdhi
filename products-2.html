@@ -44,6 +44,11 @@
             <div class="card-body">
               <h6 class="card-title">LP-AROSOL180</h6>
               <h6 class="price">Price: &#8377; 47.5 </h6>
+              <div class="product-desc">
+                <p>
+                  
+                </p>
+              </div>
               <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
             </div>
           </div>
@@ -53,6 +58,11 @@
             <div class="card-body">
               <h6 class="card-title">LP-AROSOL-150</h6>
               <h6 class="price">Price: &#8377; 47.5 </h6>
+              <div class="product-desc">
+                <p>
+                  
+                </p>
+              </div>
               <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
             </div>
           </div>
@@ -62,6 +72,11 @@
             <div class="card-body">
               <h6 class="card-title">LP-AROSOL-100</h6>
               <h6 class="price">Price: &#8377; 47.5 </h6>
+              <div class="product-desc">
+                <p>
+                  
+                </p>
+              </div>
               <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
             </div>
           </div>
@@ -71,6 +86,11 @@
             <div class="card-body">
               <h6 class="card-title">LPAROSOL150 (C10 Solvent)</h6>
               <h6 class="price">Price: &#8377; 47.5 </h6>
+              <div class="product-desc">
+                <p>
+                  
+                </p>
+              </div>
               <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
             </div>
           </div>
@@ -80,6 +100,11 @@
             <div class="card-body">
               <h6 class="card-title">Liquid Paraffin Oil</h6>
               <h6 class="price">Price: &#8377; 47.5 </h6>
+              <div class="product-desc">
+                <p>
+                  
+                </p>
+              </div>
               <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
             </div>
           </div>
@@ -89,6 +114,11 @@
             <div class="card-body">
               <h6 class="card-title">C-12 Solvent</h6>
               <h6 class="price">Price: &#8377; 47.5 </h6>
+              <div class="product-desc">
+                <p>
+                  
+                </p>
+              </div>
               <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
             </div>
           </div>
@@ -98,6 +128,11 @@
             <div class="card-body">
               <h6 class="card-title">Light Diesel Oil</h6>
               <h6 class="price">Price: &#8377; 47.5 </h6>
+              <div class="product-desc">
+                <p>
+                  
+                </p>
+              </div>
               <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
             </div>
           </div>
@@ -107,6 +142,11 @@
             <div class="card-body">
               <h6 class="card-title">Mix Hydrocarbon Solvent</h6>
               <h6 class="price">Price: &#8377; 47.5 </h6>
+              <div class="product-desc">
+                <p>
+                  
+                </p>
+              </div>
               <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
             </div>
           </div>
@@ -116,6 +156,11 @@
             <div class="card-body">
               <h6 class="card-title">Hydrocarbon Solvent Chemical</h6>
               <h6 class="price">Price: &#8377; 47.5 </h6>
+              <div class="product-desc">
+                <p>
+                  
+                </p>
+              </div>
               <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
             </div>
           </div> 
@@ -123,10 +168,7 @@
       </div> 
       <!-- products -->
   
-      <!-- enquiry modal -->
-  
-          <!-- enquiry modal -->
-  
+      <!-- enquiry modal --> 
       <!-- Button trigger modal -->
       <button type="button" class="btn btn-primary enquiry-modal" data-bs-toggle="modal" data-bs-target="#exampleModal" style="display: none;">
         Launch demo modal
@@ -141,17 +183,23 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <div class="enquiry-modal-img">
-                <div class="card">
-                  <img src="" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h6 class="card-title"></h6>
-                    <h6 class="price"></h6>
-                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              <div class="modal-body-content">
+                <div class="enquiry-modal-img">
+                  <div class="card">
+                    <img src="" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title"></h6>
+                      <h6 class="price"></h6>
+                      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
                   </div>
                 </div>
+                <div class="modal-product-desc px-4 py-4">
+                <h4>Product Description</h4>
+                    <p></p>
+                </div>
               </div>
-              <div class="enquiry-modal-form">
+              <div class="enquiry-modal-form pt-4 mt-5">
                 <!-- modal form -->
                 <form>
                   <div class="mb-3">
@@ -224,14 +272,18 @@
   
       <script>
         function enquiryModal(x){
-          document.getElementsByClassName("enquiry-modal")[0].click()
+          document.getElementsByClassName("enquiry-modal")[0].click();
           var imageSrc=document.getElementById(x).getElementsByTagName('img')[0].src;
           var title=document.getElementById(x).getElementsByTagName('h6')[0].innerHTML;
           var price=document.getElementById(x).getElementsByTagName('h6')[1].innerHTML;
+          var desc=document.getElementById(x).getElementsByClassName('product-desc')[0].getElementsByTagName('p')[0].innerHTML;
           document.getElementsByClassName('enquiry-modal-img')[0].getElementsByTagName('img')[0].src=imageSrc;
           document.getElementsByClassName('enquiry-modal-img')[0].getElementsByTagName('h6')[0].innerHTML=title;
           document.getElementsByClassName('enquiry-modal-img')[0].getElementsByTagName('h6')[1].innerHTML=price;
+          document.getElementsByClassName('modal-product-desc')[0].getElementsByTagName('p')[0].innerHTML=desc;
+    
         }
+    
       </script>
 
 
