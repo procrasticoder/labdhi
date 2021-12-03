@@ -135,9 +135,11 @@
     .mobile-grid-container{
         display: flex;
         align-items: center;
+        justify-content: space-around;
     }
     .card{
         width: 10rem;
+        margin: 5px 5px;
         /* box-shadow: 0px 0px 4px 2px black; */
         /* outline: 1px solid black; */
     }
@@ -152,6 +154,10 @@
         display: flex;
         flex-direction: column;
     }
+    .modal-body-content{
+        display: flex;
+        flex-direction: column;
+    }
     .enquiry-modal-img{
         width: 100%;
         height: 35vh;
@@ -159,6 +165,12 @@
         justify-content: center;
         align-items: center;
         /* background-color: teal; */
+    }
+    .modal-product-desc {
+        width: 100%;
+        height: 70vh;
+        background-color: rgb(240, 240, 240);
+        overflow-y: auto;
     }
     .enquiry-modal-form{
         width: 100%;

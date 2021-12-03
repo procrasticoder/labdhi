@@ -40,15 +40,15 @@
         <div class="carousel-item" data-bs-interval="2000">
         <img src="images/moving-header-2.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-            <h5>Labdhi Petrochem</h5>
-            <p>Manufacturer and Suplier of Various Industrial Fuels.</p>
+          <h5>Labdhi Petrochem</h5>
+          <p>Manufacturer and Suplier of Aromatic Sovents, Mix Aromatic Solvent, Low Aromatic Solvent, Industrial Fuel Furnace Oil, Light Diesel Oil etc.</p>
         </div>
         </div>
         <div class="carousel-item">
         <img src="images/moving-header-3.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-            <h5>Labdhi Petrochem</h5>
-            <p>Manufacturer and Suplier of Various Industrial Fuels.</p>
+          <h5>Labdhi Petrochem</h5>
+          <p>Manufacturer and Suplier of Aromatic Sovents, Mix Aromatic Solvent, Low Aromatic Solvent, Industrial Fuel Furnace Oil, Light Diesel Oil etc.</p>
         </div>
         </div>
     </div>
@@ -112,7 +112,10 @@
     </a>
     </div>
   </div>
-  
+  <div class="carousel-content-mobile">
+    <h5 style="text-align: center;">Labdhi Petrochem</h5>
+    <p style="text-align: center;">Manufacturer and Suplier of Aromatic Sovents, Mix Aromatic Solvent, Low Aromatic Solvent, Industrial Fuel Furnace Oil, Light Diesel Oil etc.</p>
+  </div>
 </div>
 
 <!-- flash header end -->
@@ -226,23 +229,18 @@
       if(screen.width<480){
         document.getElementsByClassName('navbar-main')[0].style.display='block';
         document.getElementsByClassName('navigation-bar')[0].style.display='none';
-
+        // alert(screen.width)
       }
       else{
         if(window.scrollY>=70)
         {
         document.getElementsByTagName('header')[0].getElementsByTagName('nav')[0].style.display='block';
-        // document.getElementsByClassName('navbar-main')[0].style.display='block';
         document.getElementsByClassName('navigation-bar')[0].style.display='none';
-        // document.getElementsByClassName('show')[0].style.display='none';
-
         }
 
         else{
         document.getElementsByClassName('navbar-main')[0].style.display='none';
         document.getElementsByClassName('navigation-bar')[0].style.display='grid';
-        // document.getElementsByClassName('landing-dropdown')[0].style.display='block';
-
         }
       }
         

@@ -49,3 +49,13 @@
         height: 300px;
         object-fit: cover;
     }
+
+    @media screen and (max-width:480px) {
+        .about-content-item{
+            display: flex;
+            flex-direction: column;
+        }
+        .about-content-item img{
+            display: none;
+        }
+    }

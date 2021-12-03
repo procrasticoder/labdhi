@@ -130,3 +130,53 @@ header{
 
 
 /* footer */
+
+@media screen and (max-width:480px) {
+    .navbar-main img{
+        width: 12rem;
+        object-fit: contain;
+    }
+    .navbar-toggler {
+        padding: 0.25rem 0.5rem;
+        font-size: 1rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+        transition: box-shadow .15s ease-in-out;
+    }
+    .footer_one{
+        display: grid;
+        grid-template-columns:1fr;
+        width:90%;
+        margin: 20px auto;
+        gap: 5vw 5vw;
+    }
+
+    .footerline{
+        margin-top: 20px;
+        width:100%;
+        height: 1px;
+        background-color: white;
+    }
+
+    .footer_two{
+        display: flex;
+        flex-direction: column;
+        width: inherit;
+        height: fit-content;
+        padding: 20px;
+        margin:auto;
+        font-size: 0.8rem;
+        text-align: center;
+        background-color: #1d1c1c;
+        justify-content: space-evenly;    
+    }
+    .footer_logo{
+        margin: 20px auto;
+        width: fit-content;
+    }
+    .footer_logo>img{
+        margin:0px;
+    }
+}
