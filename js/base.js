@@ -1,7 +1,7 @@
 document.getElementsByTagName("header")[0].innerHTML=`
 <nav class="navbar-main navbar navbar-expand-lg navbar-light bg-light px-4 mb-0">
 <div class="container-fluid">
-  <a href="index.html"><img src="/images/logo.png" alt=""></a>
+  <a href="index.html"><img src="images/logo.png" alt=""></a>
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
